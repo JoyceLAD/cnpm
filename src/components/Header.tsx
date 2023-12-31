@@ -1,5 +1,6 @@
 // components/Header.js
 import Link from 'next/link';
+import Router from 'next/router';
 
 
 const headerStyles = {
@@ -68,7 +69,7 @@ const Header = () => {
         <Link href="/" style={navItemStyles}>
           Trang chủ
         </Link>
-        <Link href="/categories" style={navItemStyles}>
+        {/* <Link href="/categories" style={navItemStyles}>
          Thể Loại
         </Link>
         <Link href="/new" style={navItemStyles}>
@@ -76,7 +77,14 @@ const Header = () => {
         </Link>
         <Link href="/ranking" style={navItemStyles} >
           Bảng Xếp Hạng
+        </Link> */}
+        <Link href="/login" style={navItemStyles} >
+          Login
         </Link>
+        <Link href="/register" style={navItemStyles} >
+          Register
+        </Link>
+
       </nav>
     </header>
   );
