@@ -14,6 +14,7 @@ const h1_style = {
     margin: ' 50px 60px 20px ',
     fontFamily: 'Dancing Script, cursive, Lobster, sans-serif, Arial',
     fontSize: '1.5rem',
+    color: 'rgb(235, 84, 96)',
 };
 
 
@@ -40,6 +41,32 @@ const HomePage = () => {
                 <section>
                     <div>
                         <h1 style={h1_style}>Mới cập nhật</h1>
+                        <li>
+                        <div>
+                            <div className="card w-96 bg-base-100 shadow-xl" style={sectionStyles}>
+                                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Shoes!</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div className="card-actions justify-end">
+                                        <button className="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="card w-96 bg-base-100 shadow-xl" style={sectionStyles}>
+                                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Shoes!</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div className="card-actions justify-end">
+                                        <button className="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
                         <div>
                             <div className="card w-96 bg-base-100 shadow-xl" style={sectionStyles}>
                                 <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
